@@ -62,6 +62,10 @@ public class BasePage {
         Select selectFromDropDown = new Select(driver.findElement(by));
         selectFromDropDown.selectByValue(value);
     }
+    public void selectByTextFrmDropdown(String text , By by){
+        Select selectFromDropDown = new Select(driver.findElement(by));
+        selectFromDropDown.selectByVisibleText(text);
+    }
 
     public void switchToWindowByIndex(int numberOfWindows) {
         String originalWindowHandle = driver.getWindowHandle();

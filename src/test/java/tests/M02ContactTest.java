@@ -23,14 +23,15 @@ public class M02ContactTest extends BaseTest {
     }
 
     @Test
-    public void checkingContactCreationSuccess(){
-        login.avcLogin("tech@avocad0.dev", "tech@123");
+    public void checkingContactCreationSuccess() throws InterruptedException {
+        login.avcLogin("arpit.b@twerlo.com", "12345678");
         System.out.println("Login Succeed :)");
         home.checkHomeScreenSuccess();
         System.out.println("Reached Home Screen (: !! :)");
         contact.checkAddContact();
         System.out.println("Reached Contact Screen");
-        contact.createContact("zzzzz", "8867760000");
+//        contact.createContact("aaaaa16", "8867760016");
+        contact.channelFilter("what");
 
         System.out.println("Added Contact");
 

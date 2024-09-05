@@ -2,7 +2,7 @@
 <suite name="Avocado">
     <test name="ChromeTest">
         <classes>
-            <class name="tests.M02ContactTest"></class>
+            <class name="tests.M03CustomAttributeTest"></class>
         </classes>
     </test>
 </suite>

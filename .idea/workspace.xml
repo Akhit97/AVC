@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a2a0a0c-77fb-4609-a1e9-07133c08e8ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P01LoginScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P02AvocadoWelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P03SeachScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P05ContactScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basetest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/M01AvocadoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/M02ContactTest.java" afterDir="false" />
+    <list default="true" id="5a2a0a0c-77fb-4609-a1e9-07133c08e8ed" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/image/image1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P06CustomAttributeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/M03CustomAttributeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/P01LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/P01LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/P05ContactScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/P05ContactScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/M01AvocadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/M01AvocadoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/M02ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/M02ContactTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +49,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.BaseTest.openingChrome.executor": "Run",
     "TestNG.M01AvocadoTest.executor": "Run",
+    "TestNG.M01AvocadoTest.loginSuccessToAVC.executor": "Run",
     "TestNG.M02ContactTest.checkingContactCreationSuccess.executor": "Run",
+    "TestNG.M03CustomAttributeTest.attributeAdded.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Arpit Baranwal/Downloads/Selenium/AvomaticTest"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.M02ContactTest.checkingContactCreationSuccess">
+  <component name="RunManager" selected="TestNG.M03CustomAttributeTest.attributeAdded">
     <configuration name="BaseTest.openingChrome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AVC" />
       <extension name="coverage">
@@ -95,6 +93,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="M01AvocadoTest.loginSuccessToAVC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.M01AvocadoTest" />
+      <option name="METHOD_NAME" value="loginSuccessToAVC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="M02ContactTest.checkingContactCreationSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AVC" />
       <extension name="coverage">
@@ -113,9 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="M03CustomAttributeTest.attributeAdded" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.M03CustomAttributeTest" />
+      <option name="METHOD_NAME" value="attributeAdded" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.M03CustomAttributeTest.attributeAdded" />
         <item itemvalue="TestNG.M02ContactTest.checkingContactCreationSuccess" />
+        <item itemvalue="TestNG.M01AvocadoTest.loginSuccessToAVC" />
         <item itemvalue="TestNG.M01AvocadoTest" />
         <item itemvalue="TestNG.BaseTest.openingChrome" />
       </list>
@@ -130,6 +166,20 @@
       <option name="presentableId" value="Default" />
       <updated>1724787200890</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <option name="closed" value="true" />
+      <created>1725437779302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725437779302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
 </project>

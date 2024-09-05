@@ -17,7 +17,7 @@ public class M01AvocadoTest extends BaseTest {
     }
     @Test
     public void loginSuccessToAVC(){
-        login.avcLogin("tech@avocad0.dev","tech@123");
+        login.avcLogin("arpit.b@twerlo.com","12345678");
         System.out.println("Login Successfully");
 
         home.checkHomeScreenSuccess();

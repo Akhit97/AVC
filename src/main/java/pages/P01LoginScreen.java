@@ -37,7 +37,7 @@ public class P01LoginScreen extends BasePage {
 //        clickOn(eye_button);
         clickOn(workSpace);
         Actions actions = new Actions(driver);
-        actions.pause(Duration.ofSeconds(5)).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
+        actions.pause(Duration.ofSeconds(5)).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
         clickOn(loginCTA);
         visibilityChecker(viewAs_from_home);
 
