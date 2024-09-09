@@ -24,9 +24,11 @@ public class M03CustomAttributeTest extends BaseTest {
         System.out.println("login Success");
         home.checkHomeScreenSuccess();
         System.out.println("Reached Home");
-//        custom.addNewCustomAttribute("arpit009","url");
+        custom.addNewCustomAttribute("Testing9029","testing","Url");
         System.out.println("new attribute page open");
-        custom.searchAttribute("arp");
+        custom.searchAttribute("has");
         System.out.println("Data is Searched");
+        custom.editAttribute("Happy");
+        custom.deleteAttribute();
     }
 }

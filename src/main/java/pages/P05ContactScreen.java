@@ -97,16 +97,18 @@ public class P05ContactScreen extends BasePage {
 //            waitForVisibility(updateTable, 20);
 //        }
 
-    public void channelFilter(String text){
+    public void channelFilter(String text) throws InterruptedException {
         sendTexts(channelInput,text);
         driver.findElement(channelInput).sendKeys(Keys.ARROW_DOWN);
         driver.findElement(channelInput).sendKeys(Keys.ENTER);
         clickOn(searchFilterCTA);
 //        waitForVisibility(updateTable, 30);
         List<WebElement> updateTable = driver.findElements(By.xpath("(//tbody[@data-testid='table-body'])[1]"));
+        Thread.sleep(10000);
         for (WebElement row : updateTable) {
-            WebElement channelIcon = row.findElement(By.xpath("//td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeMedium css-q34dxg']//img[@alt='platform-icon']"));
+            WebElement channelIcon = driver.findElement(By.xpath("(//*[@data-testid='platform-icon'])[1]"));
             String channelText = channelIcon.getText();
+
             if (!channelText.contains(text)) {
                 System.out.println("Test Failed: Row channel does not match selected filter.");
             } else {

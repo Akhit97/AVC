@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a2a0a0c-77fb-4609-a1e9-07133c08e8ed" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/image/image1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/image2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P06CustomAttributeScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/M03CustomAttributeTest.java" afterDir="false" />
+    <list default="true" id="5a2a0a0c-77fb-4609-a1e9-07133c08e8ed" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/P07QuickReplyScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/M04QuickReplyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/avc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/P01LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/P01LoginScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/P05ContactScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/P05ContactScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/M01AvocadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/M01AvocadoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/M02ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/M02ContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/P06CustomAttributeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/P06CustomAttributeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/M03CustomAttributeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/M03CustomAttributeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +48,14 @@
     "TestNG.M01AvocadoTest.loginSuccessToAVC.executor": "Run",
     "TestNG.M02ContactTest.checkingContactCreationSuccess.executor": "Run",
     "TestNG.M03CustomAttributeTest.attributeAdded.executor": "Run",
+    "TestNG.M04QuickReplyTest.checkQuickReply.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Arpit Baranwal/Downloads/Selenium/AvomaticTest"
+    "last_opened_file_path": "C:/Users/Arpit Baranwal/Downloads/Selenium/AvomaticTest",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.M03CustomAttributeTest.attributeAdded">
-    <configuration name="BaseTest.openingChrome" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basetest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basetest" />
-      <option name="MAIN_CLASS_NAME" value="basetest.BaseTest" />
-      <option name="METHOD_NAME" value="openingChrome" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.M04QuickReplyTest.checkQuickReply">
     <configuration name="M01AvocadoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AVC" />
       <extension name="coverage">
@@ -147,13 +127,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="M04QuickReplyTest.checkQuickReply" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.M04QuickReplyTest" />
+      <option name="METHOD_NAME" value="checkQuickReply" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.M04QuickReplyTest.checkQuickReply" />
         <item itemvalue="TestNG.M03CustomAttributeTest.attributeAdded" />
         <item itemvalue="TestNG.M02ContactTest.checkingContactCreationSuccess" />
         <item itemvalue="TestNG.M01AvocadoTest.loginSuccessToAVC" />
         <item itemvalue="TestNG.M01AvocadoTest" />
-        <item itemvalue="TestNG.BaseTest.openingChrome" />
       </list>
     </recent_temporary>
   </component>
@@ -174,12 +172,20 @@
       <option name="project" value="LOCAL" />
       <updated>1725437779302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <option name="closed" value="true" />
+      <created>1725570666630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725570666630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first" />
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
