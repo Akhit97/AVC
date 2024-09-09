@@ -30,7 +30,7 @@ public class M02ContactTest extends BaseTest {
         System.out.println("Reached Home Screen (: !! :)");
         contact.checkAddContact();
         System.out.println("Reached Contact Screen");
-//        contact.createContact("aaaaa16", "8867760016");
+        contact.createContact("aaaaa236", "8867760906");
         contact.channelFilter("what");
 
         System.out.println("Added Contact");

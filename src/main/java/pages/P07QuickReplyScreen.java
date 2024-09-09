@@ -121,20 +121,23 @@ public class P07QuickReplyScreen extends BasePage {
     public void editPageCancel(String text, String word) throws InterruptedException {
         clickOn(action_Elipsis);
         clickOn(editCTA);
-//        waitForVisibility(edit_Title,50);
-//        sendTexts(edit_ShortInput, text);
-//        sendTexts(edit_Keyword, word);
+        Thread.sleep(3000);
+        waitForVisibility(edit_Title,50);
+        sendTexts(edit_ShortInput, text);
+        sendTexts(edit_Keyword, word);
         clickOn(edit_CancelCTA);
         Thread.sleep(5000);
     }
     public void editPageUpdate(String text, String word) throws InterruptedException {
         clickOn(action_Elipsis);
         clickOn(editCTA);
+        Thread.sleep(3000);
         waitForVisibility(edit_Title,30);
         clickOn(edit_ShortInput);
         driver.findElement(edit_ShortInput).sendKeys(Keys.CONTROL + "a");
         driver.findElement(edit_ShortInput).sendKeys(Keys.DELETE);
         sendTexts(edit_ShortInput, text);
+
         sendTexts(edit_Keyword, word);
         clickOn(edit_UpdateCTA);
         Thread.sleep(5000);

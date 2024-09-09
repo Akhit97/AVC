@@ -24,14 +24,14 @@ public class M04QuickReplyTest extends BaseTest {
         home.checkHomeScreenSuccess();
         quick.addNewQuickReplyClosebtn();
         quick.addQuickReplyWithCancelButton("testing", "test","atoz");
-        quick.addQuickReplyWithSavedButton("tester","best8","better8");
+        quick.addQuickReplyWithSavedButton("tester2","best8","better8");
         quick.searchData("89");
         quick.filterData("tex");
         quick.filterData("doc");
         quick.filterData("ima");
         quick.editPageClose();
-//        quick.editPageCancel("zzzzv","ui");
-//        quick.editPageUpdate("uuuuu","yyy");
+        quick.editPageCancel("zzzzv","ui");
+        quick.editPageUpdate("uuuuu","yyy");
         quick.dataDeleted();
     }
 }
